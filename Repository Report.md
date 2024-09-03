@@ -2,22 +2,19 @@
 
 ### Introduction
 
-- Purpose of the repository.
-- Brief overview of the project.
+- Purpose of the repository: store project files and maintain project development
+- Brief overview of the project (MapTour): This project aims to develop a map-based travel guide app to help users make and plan travel routes on the map more conveniently.
 
 ### Repository Setup
 
-- Description of the repository creation process.
-- Key files added (README, LICENSE, .gitignore).
+- Username: WuYi-Vee
+- Repository Name: MapTour
+- Creation Time: 2024-09-02T23:32:29Z
+- Description: This project aims to develop a map-based travel guide app to help users make and plan travel routes on the map more conveniently.
 
 ### Maintenance Activities
 
-- Summary of regular updates and commits.
-- Branching and merging strategies.
-- Use of GitHub Issues and pull requests.
-- Documentation updates.
+- create directory “stand-ups” and file "week1.md" on the branch "main"
+- create branch "week1" and create file "repository report.md"
+- merge branch "week1" and "main"
 
-### Conclusion
-
-- Key learnings from the process.
-- How this task improved understanding of version control.
