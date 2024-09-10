@@ -11,7 +11,7 @@
   - Our project propose a method for creating travel guide directly from map:
     - Users can choose accomodation and attractions directly on the map, instead of checking their location after picking them
     - User can first filter accommodation or attractions based on their preferences, and all matching options will appear on the map. This way, they can pick the most conveniently located places right away.
-    - After selecting accommodation or attractions on the map, users can click a link to book directly though the official site.
+    - After selecting accommodation or attractions on the map, users can click a link to book directly through the official site.
     - Confirmed selections will be pinned on the map, making it easier to choose additional attractions later.
     - Once the guide is complete, the app automatically generates a full travel itinerary for easy reference.
     - To add a social element, users can share their forever-ready travel guides in the community. Others can then tweak these shared guides to quickly create their own personalized itineraries.
