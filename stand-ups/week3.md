@@ -6,8 +6,8 @@
 
 ### Challenges/Blockers encountered in the past week:
 
-- I originally intended to visualize my ideas using images or animations, but since I'm not a design professional I find it inefficient to drawing directly.I plan to develop an app or a webpage for this functionality, I can use c to demonstrate the features after the development is complete.
-- I initially thought of developing an iOS app directly. However, since my computer is a Windows PC and my phone is an iPhone, setting up the development environment would require considerable effort. Given that I already have experience in web development, I plan to start by visualizing my ideas through a webpage first.
+- I originally intended to visualize my ideas using images or animations, but I'm not a design professional so I find it inefficient to drawing directly. Since I plan to develop an app or a webpage for this functionality, I can directly use screen recording to demonstrate the features after the development is complete.
+- I initially thought of developing an iOS app directly, because app is more convinient to use and my phone is IOS system. However, since my computer is a Windows PC, setting up the development environment would require considerable effort. Given that I already have experience in web development, I plan to start by visualizing my ideas through a webpage first.
 
 
 

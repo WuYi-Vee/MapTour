@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website for touring map</title>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsE01y2jBrbJ2jqXtLRT41HymYfIh2pE4&callback=console.debug&libraries=maps,marker&v=beta"></script>   
+    <style>
+        gmp-map{
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Touring Map！</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">section1</a></li>
+            <li><a href="#section2">section2</a></li>
+            <li><a href="#section3">section3</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <h2>section1</h2>
+        <p>It is the first section of the website.</p>
+    </section>
+
+    <section id="section2">
+        <h2>section2</h2>
+        <p>It is the second section of the website.</p>
+    </section>
+
+    <section id="section3">
+        <h2>section3</h2>
+        <p>It is the third section of the website.</p>
+    </section>
+
+
+    <section id = "section4">
+        <h2>section4</h2>
+        <p id="moreText" style="display: none;">This is the hidden content</p>
+        <button onclick="showMore()">show more</button>
+    </section>
+
+    <section id="mapSection">
+        <h2>Map Section</h2>
+        <gmp-map center="40.12150192260742,-100.45039367675781" zoom="4" map-id="DEMO_MAP_ID">
+            <gmp-advanced-marker position="40.12150192260742,-100.45039367675781" title="My location"></gmp-advanced-marker>
+        </gmp-map>
+    </section>
+
+
+    <script>
+        function showMore(){
+            var text = document.getElementById("moreText");
+            if (text.style.display == "none"){
+                text.style.display = "block";
+            } else{
+                text.style.display = "none";
+            }
+        }
+    </script>
+
+    <footer>
+        <p>Copyright © 2024</p>
+    </footer>
+</body>
+</html>
